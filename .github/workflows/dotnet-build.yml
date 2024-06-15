@@ -23,11 +23,6 @@ jobs:
       with:
         dotnet-version: '8.0.x'
 
-    - name: Update .NET SDK
-      run: |
-        sudo apt update
-        sudo apt install dotnet-sdk-5.0  # Instalação do SDK 5.0
-
     - name: Execute build
       run: |
         chmod +x ./build.sh
