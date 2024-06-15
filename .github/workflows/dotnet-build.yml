@@ -21,7 +21,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '3.1.32'
+        dotnet-version: '3.1.x'
 
     - name: Execute build
       run: |
