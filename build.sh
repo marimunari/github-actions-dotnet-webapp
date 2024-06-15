@@ -4,6 +4,9 @@
 
 echo "Iniciando build"
 
+# Entrar no diretório
+cd ../github4women
+
 # Restaurar dependências
 dotnet restore
 
